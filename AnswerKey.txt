@@ -1,0 +1,39 @@
+// Name: Zeid Ayssa
+// ECE 2524 - Assignment-assignment
+
+
+1&2 ls -al
+ls -al to see the contents of the current working directory, for example
+
+total 48
+drwxr-xr-x   2 hartleys users        1024 Dec 31 11:24 .
+drwxr-xr-x   5 hartleys users        1024 Dec 23 15:32 ..
+-rw-r--r--   1 hartleys users        2021 Dec 23 16:00 00_first-class.html
+-rw-r--r--   1 hartleys users        4887 Dec 31 13:16 01_starting.html
+-rw-r--r--   1 hartleys users        5117 Dec 23 16:25 02_viQuickIntro.txt
+-rw-r--r--   1 hartleys users        9422 Dec 26 18:17 03_viIntro.html
+
+3- cp * directory copies all files in the current working directory into another directory
+	cp file1 file2 to copy one file to another
+
+
+4- cat file to see the contents of a text file
+
+5- touch is a standard Unix program used to change a file's access 
+and modification timestamps. It is also used to create a new empty file.
+
+6- more file to see the contents of a text file with a pager program 
+(hit the space bar to get the next page)
+
+7- rm file to remove (delete) a file from the current working directory
+
+there is NO recycle bin or trash can in UNIX!
+
+rm * removes all files in the current working directory. Be careful!!
+
+8- cd directory to go to another directory
+
+9- pwd tells you what the current working directory is (where you are)
+
+10- mv file1 file2 to change the name of a file (rename or move from
+ old name to new name)
